@@ -136,18 +136,18 @@ Current challenges:
 - Reports require manual consolidation
 - Different departments may maintain different versions of
   operational data
-- Management has limited real-time visibility
+- Management has limited real time visibility
 
 ### Business Need
 
 The PMS should provide standardized operational reports for
-management decision-making.
+management decision making.
 
 ---
 
 # 4. Business Requirements
 
-## BR-001 — Centralized Reservation Management
+## BR 001: Centralized Reservation Management
 
 The hotel requires a centralized system to create, modify,
 cancel and search guest reservations.
@@ -161,7 +161,7 @@ reservation information.
 
 ---
 
-## BR-002 — Room Availability
+## BR 002: Room Availability
 
 The hotel requires visibility of room availability based on
 room inventory, reservations, allocations and applicable room
@@ -172,11 +172,11 @@ High
 
 ### Business Value
 Reduces the risk of incorrect room commitments and improves
-front-office decision-making.
+front office decision-making.
 
 ---
 
-## BR-003 — Room Allocation
+## BR 003: Room Allocation
 
 The hotel requires the ability to assign rooms to arriving
 guests based on room type, availability and operational
@@ -190,7 +190,7 @@ Improves room allocation efficiency and guest handling.
 
 ---
 
-## BR-004 — Guest Check-In
+## BR 004: Guest Check-In
 
 The hotel requires a standardized check-in process including:
 
@@ -205,7 +205,7 @@ High
 
 ---
 
-## BR-005 — Guest Check-Out
+## BR 005: Guest Check-Out
 
 The hotel requires a standardized checkout process including:
 
@@ -220,7 +220,7 @@ High
 
 ---
 
-## BR-006 — Guest Folio
+## BR 006: Guest Folio
 
 The hotel requires a centralized guest folio to maintain
 financial transactions associated with a guest stay.
@@ -242,7 +242,7 @@ High
 
 ---
 
-## BR-007 — Housekeeping Room Status
+## BR 007 : Housekeeping Room Status
 
 The hotel requires standardized room-status management.
 
@@ -258,7 +258,7 @@ Improves coordination between Housekeeping and Front Office.
 
 ---
 
-## BR-008 — POS Integration
+## BR 008: POS Integration
 
 The hotel requires integration between the restaurant POS
 and PMS so eligible restaurant charges can be posted to the
@@ -276,7 +276,7 @@ High
 
 ---
 
-## BR-009 — Guest Profile Management
+## BR 009: Guest Profile Management
 
 The hotel requires centralized guest profiles containing
 relevant guest information and stay history.
@@ -290,7 +290,7 @@ efficiency.
 
 ---
 
-## BR-010 — Data Migration
+## BR 010: Data Migration
 
 The hotel requires migration of relevant existing data from
 Excel and legacy records.
@@ -307,7 +307,7 @@ High
 
 ---
 
-## BR-011 — Role-Based Access
+## BR 011:  Role Based Access
 
 The PMS should provide access based on user responsibilities.
 
@@ -315,10 +315,10 @@ Example:
 
 | Role | Required Access |
 |---|---|
-| Front Office | Reservations, check-in, checkout |
+| Front Office | Reservations, check in, checkout |
 | Housekeeping | Room status |
 | Finance | Billing and payments |
-| F&B | POS-related transactions |
+| F&B | POS related transactions |
 | Management | Reports |
 | IT | Technical administration |
 
@@ -327,7 +327,7 @@ High
 
 ---
 
-## BR-012 — Operational Reporting
+## BR 012: Operational Reporting
 
 The hotel requires standardized reporting for:
 
@@ -349,42 +349,42 @@ Medium
 
 # 5. Business Rules
 
-## BRULE-001 — Room Assignment
+## BRULE 001: Room Assignment
 
 A room should only be assigned when it meets the hotel's
 configured availability and readiness conditions.
 
 ---
 
-## BRULE-002 — Room Status
+## BRULE 002: Room Status
 
 Room status should reflect the operational condition of the
 room according to the hotel's configured workflow.
 
 ---
 
-## BRULE-003 — Guest Folio
+## BRULE 003: Guest Folio
 
 Charges and payments associated with a stay should be
 recorded against the appropriate guest folio.
 
 ---
 
-## BRULE-004 — POS Posting
+## BRULE 004:POS Posting
 
 Restaurant charges posted to a guest room should be associated
 with the correct room/guest folio.
 
 ---
 
-## BRULE-005 — User Access
+## BRULE 005: User Access
 
 Users should only access functions appropriate to their
 assigned role.
 
 ---
 
-# 6. Non-Functional Business Requirements
+# 6. Non Functional Business Requirements
 
 ## Performance
 
