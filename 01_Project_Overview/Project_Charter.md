@@ -2,7 +2,7 @@
 
 ## 1. Project Title
 
-**Hotel PMS Implementation & Client Onboarding — End-to-End Case Study**
+**Hotel PMS Implementation & Client Onboarding End to End Case Study**
 
 ---
 
@@ -10,7 +10,7 @@
 
 **Simulated Hotel PMS Implementation Case Study**
 
-This project demonstrates an end-to-end approach to implementing a Property Management System (PMS) for a hotel.
+This project demonstrates an end to end approach to implementing a Property Management System (PMS) for a hotel.
 
 The case study is created for portfolio and learning purposes and does not represent a live implementation of any specific PMS product.
 
